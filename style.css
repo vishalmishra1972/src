@@ -1,0 +1,65 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  color: #2C2C2C;
+  background-color:#F8F8F8;
+}
+
+h1, h2,h3,h4 {
+  font-family: 'Cormorant Garamond', serif !important;
+  color: #2C2C2C;
+}
+
+/* Banner text styling */
+.banner-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
+  color: #2C2C2C;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+.banner-subtitle {
+  font-size: 1.5rem;
+  color: #2C2C2C;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+}
+
+.banner a.w3-button {
+  font-size: 1rem !important;
+  letter-spacing: 0.2rem !important;
+  padding: 12px 30px;
+  border: rgba(238, 233, 233, 0.941) 2px solid;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.banner a.w3-button:hover {
+  background-color: whitesmoke !important;
+  color: black !important;
+  
+}
+
+#card a.w3-button {
+    font-size: 1rem !important;
+  letter-spacing: 0.1rem !important;
+  padding: 12px 30px;
+  border: rgb(53, 51, 51) 2px solid !important;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#card a.w3-button:hover {
+  background-color: whitesmoke !important;
+  color: black !important;
+}
+
+.banner-review {
+  font-size: 1.5rem;
+  color: #2C2C2C;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+  line-height: 1.6;
+}
+.footer-link:hover {
+    color: black !important;
+    transition: 0.4s;
+    font-weight: bold;
+}
